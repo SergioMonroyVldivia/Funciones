@@ -1,0 +1,52 @@
+<!doctype html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Desafío 4 Colores y Teclado</title>
+    <!-- Conectamos con nuestro CSS -->
+    <link rel="stylesheet" href="./assets/css/style.css" />
+  </head>
+  <body>
+    <h1>Desafío 4 Colores</h1>
+    <p>Haz clic en cualquiera de los 4 cuadros para pintarlo de color negro.</p>
+
+    <!-- REQUERIMIENTO 3: 4 divs con alto, ancho y color en atributo style -->
+    <div class="contenedor-colores">
+      <div
+        id="azul"
+        style="width: 200px; height: 200px; background-color: blue"
+      ></div>
+      <div
+        id="rojo"
+        style="width: 200px; height: 200px; background-color: red"
+      ></div>
+      <div
+        id="verde"
+        style="width: 200px; height: 200px; background-color: green"
+      ></div>
+      <div
+        id="amarillo"
+        style="width: 200px; height: 200px; background-color: yellow"
+      ></div>
+    </div>
+
+    <hr />
+
+    <!-- REQUERIMIENTO 4: Eventos de teclado -->
+    <div class="contenedor-teclado">
+      <h2>Control por Teclado</h2>
+      <p>
+        Presiona <strong>A, S, D</strong> para cambiar el color del cuadro
+        principal.<br />
+        Presiona <strong>Q, W, E</strong> para crear nuevos cuadros mágicamente.
+      </p>
+
+      <!-- El div "key" exigido para cambiar de color con el teclado -->
+      <div id="key"></div>
+    </div>
+
+    <!-- Conectamos con el motor lógico de colores -->
+    <script src="./assets/js/colores.js"></script>
+  </body>
+</html>

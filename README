@@ -1,0 +1,18 @@
+# Desafío Funciones
+
+¡Buenas! Acá dejo mi código para el tercer desafío del curso, el de Funciones.
+
+Hice las dos páginas que pedían:
+
+- Una para cambiar el fondo de una imagen al hacer clic.
+- Otra con 4 cuadros de colores que se ponen negros al tocarlos, y un cuadrito extra que cambia de color y crea divs nuevos dependiendo de qué tecla aprietes (A, S, D, Q, W, E).
+
+Acá les dejo el link para que vean el proyecto funcionando en vivo:
+[Ver el proyecto pintar](https://sergiomonroyvldivia.github.io/Funciones/pintar.html)
+[Ver el proyecto pintar](https://sergiomonroyvldivia.github.io/Funciones/4_colores.html)
+
+## Archivos del proyecto:
+
+- `1_funcion.js` y `2_arrow.js`: Los ejercicios de transformar funciones.
+- `pintar.html` y `4_colores.html`: Las páginas visuales.
+- Adentro de la carpeta `assets` metí los scripts y un poco de CSS para que no se vea tan desordenado.
